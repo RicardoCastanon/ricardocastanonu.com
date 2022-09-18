@@ -41,6 +41,7 @@ const Navbar = () => {
             height="50"
           ></Image>
         </Link>
+        {/* Deploy */}
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
