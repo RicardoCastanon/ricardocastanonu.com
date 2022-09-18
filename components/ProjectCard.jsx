@@ -9,7 +9,7 @@ function ProjectCard(props) {
         width={1920}
         height={1080}
         className="rounded-xl group-hover:opacity-10"
-        src={`/../public/assets/projects/project${props.i}.PNG`}
+        src={`/assets/projects/project${props.i}.PNG`}
         alt="project 1"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">

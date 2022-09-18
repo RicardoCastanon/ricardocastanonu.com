@@ -7,7 +7,7 @@ function SkillCard(props) {
       <div className="grid grid-cols-2 gap-4 justify-center items-center">
         <div className="mx-auto">
           <Image
-            src={`/../assets/skills/asset${props.i}.svg`}
+            src={`/assets/skills/asset${props.i}.svg`}
             alt="asset1"
             width={80}
             height={80}

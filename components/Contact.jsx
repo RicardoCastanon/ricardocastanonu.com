@@ -23,7 +23,7 @@ function Contact() {
                   width={6000}
                   height={4000}
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/contact.jpeg"
+                  src="/assets/contact.jpeg"
                   alt="stock"
                 />
               </div>

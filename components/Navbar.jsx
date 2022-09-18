@@ -35,7 +35,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="cursor-pointer"
-            src="/../public/assets/navlogo.png"
+            src="/assets/navlogo.png"
             alt="logo"
             width="50"
             height="50"
