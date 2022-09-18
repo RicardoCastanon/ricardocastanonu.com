@@ -31,7 +31,7 @@ function Contact() {
                 <h2 className="py-2">Brandon Smith</h2>
                 <p>Software engineer</p>
                 <p className="py-4">
-                  I am available for freelancing. Contact me and let's talk.
+                  {"I am available for freelancing. Contact me and let's talk."}
                 </p>
               </div>
               <div>
