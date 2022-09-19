@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import About from "../components/About";
@@ -9,9 +8,9 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Head>
-        <title>Brandon the Dev</title>
+        <title>Brandon Smith Web Development</title>
         <meta
           name="description"
           content="Front End and Back End Web Developer located in Wichita, Kansas. Brandon does freelancing in the Wichita, Kansas area."
