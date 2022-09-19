@@ -7,6 +7,19 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 
 function Contact() {
+  async function handleOnSubmit(e) {
+    e.preventDefault();
+    const formData = {};
+    Array.from(e.currentTarget).forEach((field) => {
+      if (!field.name) return;
+      formData[field.name] = field.value;
+    });
+    fetch("/api/mail", {
+      method: "post",
+      body: JSON.stringify(formData),
+    });
+    console.log(formData);
+  }
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -65,50 +78,55 @@ function Contact() {
           {/* Right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form action="">
+              <form method="post" action="" onSubmit={handleOnSubmit}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label htmlFor="" className="uppercase text-sm py-2">
+                    <label htmlFor="name" className="uppercase text-sm py-2">
                       Name
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
+                      name="name"
                       type="text"
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label htmlFor="" className="uppercase text-sm py-2">
+                    <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone number.
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
+                      name="phone"
                       type="text"
                     />
                   </div>
                   <div className="flex flex-col py-2 col-span-2">
-                    <label className="uppercase text-sm py-2" htmlFor="">
+                    <label className="uppercase text-sm py-2" htmlFor="email">
                       Email.
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
+                      name="email"
                       type="email"
                     />
                   </div>
                   <div className="flex flex-col py-2 col-span-2">
-                    <label className="uppercase text-sm py-2" htmlFor="">
+                    <label className="uppercase text-sm py-2" htmlFor="subject">
                       Subject.
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
+                      name="subject"
                       type="text"
                     />
                   </div>
                   <div className="flex flex-col py-2 col-span-2">
-                    <label className="uppercase text-sm py-2" htmlFor="">
+                    <label className="uppercase text-sm py-2" htmlFor="message">
                       Message.
                     </label>
                     <textarea
                       className="border-2 rounded-lg p-3 border-gray-300"
+                      name="message"
                       rows="10"
                     ></textarea>
                   </div>
