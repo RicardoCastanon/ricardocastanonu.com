@@ -41,10 +41,10 @@ export default function Home() {
   return (
     <div className="w-full">
       <Head>
-        <title>Brandon Smith Web Development</title>
+        <title>Brandon Smith - Web Development - Cheap</title>
         <meta
           name="description"
-          content="Front End and Back End Web Developer located in Wichita, Kansas. Brandon does freelancing in the Wichita, Kansas area."
+          content="Front End and Back End Web Developer located in Wichita, Kansas. High quality, scalable, and cheap services."
         />
         <meta
           name="viewport"
