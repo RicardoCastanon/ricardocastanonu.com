@@ -39,9 +39,9 @@ export default function Home() {
     },
   };
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <Head>
-        <title>Brandon Smith - Web Development - Cheap</title>
+        <title>Brandon Smith - Web Developer - Cheap</title>
         <meta
           name="description"
           content="Brandon Smith, a Front End and Back End Web Developer located in Wichita, Kansas. High quality, scalable, and cheap services."
