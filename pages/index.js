@@ -44,7 +44,7 @@ export default function Home() {
         <title>Brandon Smith - Web Development - Cheap</title>
         <meta
           name="description"
-          content="Front End and Back End Web Developer located in Wichita, Kansas. High quality, scalable, and cheap services."
+          content="Brandon Smith, a Front End and Back End Web Developer located in Wichita, Kansas. High quality, scalable, and cheap services."
         />
         <meta
           name="viewport"
