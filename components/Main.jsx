@@ -12,10 +12,12 @@ function Main() {
           <p className="uppercase text-sm tracking-lightest text-gray-600">
             {"LET'S BUILD SOMETHING AMAZING!"}
           </p>
-          <h1 className="py-4 tracking-tight">
+          <h2 className="py-4 tracking-tight">
             {"Hi, I'm "} <span className="text-[#5651e5]">Brandon</span>
+          </h2>
+          <h1 className="py-2 text-gray-700">
+            A Web Developer in Wichita, Kansas.
           </h1>
-          <h1 className="py-2 text-gray-700">A Software Engineer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto font-semibold">
             I am a software engineer based in Wichita, Kansas. Services I offer
             are creating multi-page websites, machine learning services, and

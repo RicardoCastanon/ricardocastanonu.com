@@ -37,7 +37,7 @@ function Contact() {
                   height={4000}
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/contact.jpeg"
-                  alt="stock"
+                  alt="Web Developer in Wichita Kansas coding"
                 />
               </div>
               <div>
