@@ -1,6 +1,6 @@
 import sendgrid from "@sendgrid/mail";
 
-sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 // const mail = (req, res) => {
 //   const body = JSON.parse(req.body);
@@ -10,7 +10,7 @@ sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
 
 async function mail(req, res) {
   try {
-    const body = JSON.parse(req.body)
+    const body = JSON.parse(req.body);
     console.log("REQ.BODY", req.body);
     await sendgrid.send({
       to: "contact@brandonthedev.com", // Your email where you'll receive emails
