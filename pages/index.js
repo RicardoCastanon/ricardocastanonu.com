@@ -5,8 +5,17 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import { SuccessModal } from "../components/SuccessModal";
+import { useState } from "react";
 
 export default function Home() {
+  const [isModal, setIsModal] = useState(false);
+  const getModalData = (data) => {
+    setIsModal(data);
+    return data;
+  };
+  console.log(isModal);
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
@@ -56,12 +65,13 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <SuccessModal ModalData={isModal} onClick={getModalData} />
       <Navbar />
       <Main />
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact onClick={getModalData} />
     </div>
   );
 }

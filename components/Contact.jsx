@@ -5,8 +5,9 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
+import { useState } from "react";
 
-function Contact() {
+function Contact(props) {
   async function handleOnSubmit(e) {
     e.preventDefault();
     const formData = {};
@@ -20,6 +21,13 @@ function Contact() {
     });
     console.log(formData);
   }
+
+  // const [isModal, setIsModal] = useState(false);
+
+  const handleOnClick = (data) => {
+    props.onClick(data);
+  };
+
   return (
     <div id="contact" className="w-full ">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -131,7 +139,10 @@ function Contact() {
                     ></textarea>
                   </div>
                 </div>
-                <button className="w-full p-4 text-gray-100">
+                <button
+                  onClick={() => handleOnClick(true)}
+                  className="w-full p-4 text-gray-100"
+                >
                   Send message.
                 </button>
               </form>
