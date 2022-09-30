@@ -137,7 +137,7 @@ function Contact() {
               </form>
             </div>
           </div>
-
+          {/* deploy */}
           {/* Right */}
         </div>
         <div className="flex justify-center py-12 ">
