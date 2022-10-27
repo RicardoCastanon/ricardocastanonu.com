@@ -5,6 +5,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import { MyResearch } from "../components/MyResearch";
 import { SuccessModal } from "../components/SuccessModal";
 import { useState } from "react";
 
@@ -71,6 +72,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <MyResearch />
       <Contact onClick={getModalData} />
     </div>
   );
