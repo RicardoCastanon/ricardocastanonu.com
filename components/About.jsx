@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   return (
@@ -16,6 +17,16 @@ function About() {
             you from ground zero. If you are in the area, I can meet in-person
             and deliver the highest quality service involving real life research
             and support of your business.
+          </p>
+          <p className="text-gray-600 py-2">
+            I also have a deep passion for learning and I actively research
+            various topics in physics, math, and computer science such as
+            Quantum Neural Networks. Go to my{" "}
+            <Link href={"/#research"}>
+              <span className="underline cursor-pointer">research section</span>
+            </Link>{" "}
+            if you want to learn with me and learn more about the theory behind
+            various concepts in computer science and physics!
           </p>
         </div>
         <div className="md:w-full w-[400px] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

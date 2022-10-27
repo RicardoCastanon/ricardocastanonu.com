@@ -9,17 +9,11 @@ function MyResearch() {
           <Link href="/">
             <li className="text-sm uppercase hover:border-b">Home</li>
           </Link>
-          <Link href="/#about">
-            <li className="text-sm uppercase hover:border-b">About</li>
+          <Link href="/">
+            <li className="text-sm uppercase hover:border-b">Quantum</li>
           </Link>
-          <Link href="/#skills">
-            <li className="text-sm uppercase hover:border-b">Skills</li>
-          </Link>
-          <Link href="/#projects">
-            <li className="text-sm uppercase hover:border-b">Projects</li>
-          </Link>
-          <Link href="/#contact">
-            <li className="text-sm uppercase hover:border-b">Contact</li>
+          <Link href="/">
+            <li className="text-sm uppercase hover:border-b">QNN</li>
           </Link>
         </ul>
       </div>
