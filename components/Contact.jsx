@@ -34,7 +34,7 @@ function Contact(props) {
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
         </p>
-        <h2 className="py-4">{"Let's build a website."}</h2>
+        <h2 className="py-4">{"Let's innovate together."}</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* Left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -45,14 +45,14 @@ function Contact(props) {
                   height={4000}
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/contact.jpeg"
-                  alt="Web Developer in Wichita Kansas coding"
+                  alt="Software Engineer in Wichita Kansas coding"
                 />
               </div>
               <div>
-                <h2 className="py-2">Brandon Smith | Wichita Web Dev</h2>
+                <h2 className="py-2">Brandon Smith | Wichita, KS</h2>
                 <p>Software engineer</p>
                 <p className="py-4">
-                  {"I am available for freelancing. Contact me and let's talk."}
+                  {"I am available for a chat. Contact me and let's talk."}
                 </p>
               </div>
               <div>

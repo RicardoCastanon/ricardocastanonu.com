@@ -51,10 +51,10 @@ export default function Home() {
   return (
     <div className="w-full overflow-hidden">
       <Head>
-        <title>Brandon Smith - Web Developer</title>
+        <title>Brandon Smith - Engineer</title>
         <meta
           name="description"
-          content="Brandon Smith, a Front End and Back End Web Developer located in Wichita, Kansas. High quality, scalable, and cheap services."
+          content="Brandon Smith, a Software developer who practices engineering principles and the scientific method."
         />
         <meta
           name="viewport"

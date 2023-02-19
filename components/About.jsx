@@ -13,17 +13,20 @@ function About() {
           <h2 className="py-4">Who I am</h2>
           <p className="text-gray-600 py-2">
             I am a Physics student at Wichita State University. I have a deep
-            passion for deep learning. I can get any beautiful website setup for
-            you from ground zero. If you are in the area, I can meet in-person
-            and deliver the highest quality service involving real life research
-            and support of your business.
+            passion for deep learning. I have experience in developing machine
+            learning algorithms, web development, mobile development, and
+            problem solving in general. I spend time whiteboarding the best
+            possible solution for a problem given the constraints. I am not just
+            a developer, I am a problem solver.
           </p>
           <p className="text-gray-600 py-2">
             I also have a deep passion for learning and I actively research
             various topics in physics, math, and computer science such as
             Quantum Neural Networks. Go to my{" "}
             <Link href={"/#research"}>
-              <span className="underline cursor-pointer">research section</span>
+              <span className="underline cursor-pointer text-purple-700">
+                research section
+              </span>
             </Link>{" "}
             if you want to learn with me and learn more about the theory behind
             various concepts in computer science and physics!
