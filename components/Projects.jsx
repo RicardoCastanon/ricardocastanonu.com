@@ -10,7 +10,11 @@ function Projects() {
         </p>
         <h2 className="py-4">{"What I've built."}</h2>
         <div className="grid md:grid-cols-2 gap-2">
-          <ProjectCard title="Aspiria NOW" i={1} framework="React JS" />
+          <ProjectCard
+            title="Mesocast Weather Forecasting"
+            i={1}
+            framework="NextJS, GoLang, Python"
+          />
           <ProjectCard title="Aspiria KC" i={2} framework="Next JS" />
           <ProjectCard
             title="Occidental Management"

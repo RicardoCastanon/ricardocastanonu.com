@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function ProjectCard(props) {
   const altList = [
-    "Aspiria NOW Website",
+    "Mesocast Weather Forecasting",
     "Aspiria KC Website",
     "Occidental Management Website",
   ];
@@ -14,7 +14,7 @@ function ProjectCard(props) {
         width={1920}
         height={1080}
         className="rounded-xl group-hover:opacity-10"
-        src={`/assets/projects/project${props.i}.PNG`}
+        src={`/assets/projects/project${props.i}.png`}
         alt={altList[props.i - 1]}
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
