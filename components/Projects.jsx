@@ -14,7 +14,9 @@ function Projects() {
             title="Mesocast Weather Forecasting"
             i={1}
             framework="NextJS, GoLang, Python"
+            goToLink="/mesocast"
           />
+
           <ProjectCard title="Aspiria KC" i={2} framework="Next JS" />
           <ProjectCard
             title="Occidental Management"

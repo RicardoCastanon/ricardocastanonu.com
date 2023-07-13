@@ -28,7 +28,7 @@ const mesocast = () => {
             <RainModel />
           </Suspense>
         </Canvas>
-        <div className="h-1/2 absolute flex flex-col gap-5 right-10 p-5 bg-black backdrop-blur-sm bg-opacity-50 rounded-xl">
+        <div className="h-1/2 absolute flex flex-col justify-between right-10 p-5 bg-black backdrop-blur-sm bg-opacity-50 rounded-xl">
           <h2 className="text-5xl font-bold pr-10 text-transparent bg-clip-text bg-gradient-to-r from-[#E8807F] to-[#E6C84F]">
             Mesocast.net
           </h2>
@@ -84,7 +84,7 @@ const mesocast = () => {
             </svg>
             First ever web application to GL render raw weather radar data.
           </div>
-          <button className="bg-gradient-to-r from-[#E8807F] to-[#E6C84F] w-fit p-2 font-semibold hover:scale-105 hover:bg-gradient-to-l duration-150 ease-in-out shadow-sm text-xl">
+          <button className="bg-gradient-to-r from-[#E8807F] to-[#E6C84F] w-fit p-2 font-semibold hover:scale-105 hover:shadow-sm duration-150 ease-in-out shadow-sm text-xl">
             Check it out!
           </button>
         </div>
