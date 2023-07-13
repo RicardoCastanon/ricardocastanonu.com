@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
 
@@ -42,24 +42,30 @@ const Navbar = () => {
           ></Image>
         </Link>
         {/* Deploy */}
-        <div>
+        <div className={props.darkMode && "text-white"}>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:scale-105 duration-75">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:scale-105 duration-75">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:scale-105 duration-75">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:scale-105 duration-75">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:scale-105 duration-75">
                 Contact
               </li>
             </Link>

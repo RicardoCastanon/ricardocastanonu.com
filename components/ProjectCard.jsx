@@ -24,7 +24,7 @@ function ProjectCard(props) {
         <p className="pb-4 pt-2 text-wide text-center text-white">
           {props.framework}
         </p>
-        <Link href="/">
+        <Link href="/mesocast">
           <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More info.
           </p>
