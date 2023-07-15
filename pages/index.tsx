@@ -8,12 +8,13 @@ import Contact from "../components/Contact";
 import { MyResearch } from "../components/MyResearch";
 import { SuccessModal } from "../components/SuccessModal";
 import { useState } from "react";
+import { NextPage } from "next";
 
-const Home = () => {
+const Home: NextPage = () => {
   const [isModal, setIsModal] = useState(false);
-  const getModalData = (data) => {
-    setIsModal(data);
-    return data;
+  const getIsModalOpen = (isOpen: boolean) => {
+    setIsModal(isOpen);
+    return isOpen;
   };
 
   const schemaData = {
@@ -65,14 +66,14 @@ const Home = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SuccessModal ModalData={isModal} onClick={getModalData} />
+      <SuccessModal ModalData={isModal} onClick={getIsModalOpen} />
       <Navbar />
       <Main />
       <About />
       <Skills />
       <Projects />
       <MyResearch />
-      <Contact onClick={getModalData} />
+      <Contact onClick={getIsModalOpen} />
     </div>
   );
 };

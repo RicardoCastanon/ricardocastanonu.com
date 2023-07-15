@@ -12,10 +12,10 @@ function About() {
           </p>
           <h2 className="py-4">Who I am</h2>
           <p className="text-gray-600 py-2">
-            I am a Physics student at Wichita State University. I have a deep
-            passion for deep learning. I have experience in developing machine
-            learning algorithms, web development, mobile development, and
-            problem solving in general. I spend time whiteboarding the best
+            I have a background in Physics at Wichita State University. I have a
+            deep passion for deep learning. I have experience in developing
+            machine learning algorithms, web development, mobile development,
+            and problem solving in general. I spend time whiteboarding the best
             possible solution for a problem given the constraints. I am not just
             a developer, I am a problem solver.
           </p>
