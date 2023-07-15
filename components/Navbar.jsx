@@ -21,7 +21,9 @@ const Navbar = (props) => {
         setShadow(false);
       }
     };
-    window.addEventListener("scroll", handleShadow);
+    if (!props.darkMode) {
+      window.addEventListener("scroll", handleShadow);
+    }
   }, []);
   return (
     <div

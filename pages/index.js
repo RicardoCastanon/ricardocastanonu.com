@@ -49,7 +49,7 @@ export default function Home() {
     },
   };
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden" data-theme="light">
       <Head>
         <title>Brandon Smith - Engineer</title>
         <meta

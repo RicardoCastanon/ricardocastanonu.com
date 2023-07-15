@@ -24,10 +24,13 @@
     "zustand": "^4.3.9"
   },
   "devDependencies": {
+    "@types/react": "^18.2.15",
     "autoprefixer": "^10.4.11",
+    "daisyui": "^3.2.1",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "typescript": "^5.1.6"
   }
 }

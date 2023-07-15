@@ -9,7 +9,7 @@ const RainModel = () => {
   const { actions, mixer } = useAnimations(gltf.animations, modelRef);
 
   useEffect(() => {
-    modelRef.current.position.z = -9;
+    modelRef.current.position.z = -15;
     modelRef.current.position.y = -10.2;
     modelRef.current.position.x = -6;
     modelRef.current.rotation.x = 0.2;

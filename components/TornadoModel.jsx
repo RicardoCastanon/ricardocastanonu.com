@@ -10,8 +10,8 @@ const TornadoModel = () => {
   const { actions, mixer } = useAnimations(gltf.animations, modelRef);
 
   useEffect(() => {
-    modelRef.current.position.x = -4;
-    modelRef.current.position.z = -5;
+    modelRef.current.position.x = -3.5;
+    modelRef.current.position.z = -13;
     modelRef.current.position.y = -2;
     modelRef.current.rotation.x = 0.3;
   }, []);
