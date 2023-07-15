@@ -30,7 +30,12 @@ const DaisyCarousel = (props: DaisyCarouselProps) => {
                 <p>{item.description}</p>
               </div>
             </div>
-            <Image src={item.imageUrl} width={1500} height={800} />
+            <Image
+              src={item.imageUrl}
+              width={1500}
+              height={800}
+              loading="eager"
+            />
           </div>
         ))}
       </div>
