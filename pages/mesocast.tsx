@@ -1,16 +1,17 @@
 import { Canvas, useFrame } from "@react-three/fiber";
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import RainModel from "../components/RainModel";
 import TornadoModel from "../components/TornadoModel";
 import DaisyCaoursel, { DaisyCarouselItem } from "../components/DaisyCarousel";
+import { NextPage } from "next";
 
-const mesocast = () => {
-  const [isLoading, setIsLoading] = React.useState<boolean>(true);
+const Mesocast: NextPage = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  const canvasRef = React.useRef<HTMLCanvasElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (canvasRef.current) {
       setIsLoading(false);
     }
@@ -145,4 +146,4 @@ const mesocast = () => {
   );
 };
 
-export default mesocast;
+export default Mesocast;

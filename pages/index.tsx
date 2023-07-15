@@ -9,13 +9,12 @@ import { MyResearch } from "../components/MyResearch";
 import { SuccessModal } from "../components/SuccessModal";
 import { useState } from "react";
 
-export default function Home() {
+const Home = () => {
   const [isModal, setIsModal] = useState(false);
   const getModalData = (data) => {
     setIsModal(data);
     return data;
   };
-  console.log(isModal);
 
   const schemaData = {
     "@context": "https://schema.org",
@@ -76,4 +75,6 @@ export default function Home() {
       <Contact onClick={getModalData} />
     </div>
   );
-}
+};
+
+export default Home;
