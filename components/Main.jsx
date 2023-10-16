@@ -10,7 +10,7 @@ function Main() {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-lightest text-gray-600">
-            {"ENGINEERING | SCIENCE | SPACE | ENVIRONMENT"}
+            {"SOFTWARE | HARDWARE | SCIENCE | SPACE | ENVIRONMENT"}
           </p>
           <h2 className="py-4 tracking-tight">
             {"Hi, I'm "} <span className="text-[#5651e5]">Ricardo</span>
@@ -25,7 +25,7 @@ function Main() {
             continuously growing knowledge to leave a positive mark on society. 
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <Link href="www.linkedin.com/in/ricardo-castanon">
+            <Link href="https://www.linkedin.com/in/ricardo-castanon">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedin />
               </div>
