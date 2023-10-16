@@ -24,8 +24,8 @@ function About() {
             className="rounded-xl"
             src="/assets/headshot.jpg"
             alt="headshot"
-            width={400}
-            height={500}
+            width={324}
+            height={486}
           />
         </div>
       </div>
