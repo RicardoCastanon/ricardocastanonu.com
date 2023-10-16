@@ -20,11 +20,11 @@ const Home: NextPage = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Brandon Smith",
+    name: "Ricardo Castanon",
     image: "https://www.occmgmt.com/wp-content/uploads/2022/09/contact.jpeg",
     "@id": "",
     url: "https://www.brandonthedev.com",
-    telephone: "3168413047",
+    telephone: "3168715799",
     priceRange: "$100",
     address: {
       "@type": "PostalAddress",
@@ -51,10 +51,10 @@ const Home: NextPage = () => {
   return (
     <div className="w-full overflow-hidden" data-theme="light">
       <Head>
-        <title>Brandon Smith - Engineer</title>
+        <title>Ricardo Castanon Ureno</title>
         <meta
           name="description"
-          content="Brandon Smith, a Software developer who practices engineering principles and the scientific method."
+          content="Ricardo Castanon, a Computer Engineering student who practices engineering principles and the scientific method."
         />
         <meta
           name="viewport"

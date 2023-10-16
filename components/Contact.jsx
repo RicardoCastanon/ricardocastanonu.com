@@ -45,12 +45,12 @@ function Contact(props) {
                   height={4000}
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/contact.jpeg"
-                  alt="Software Engineer in Wichita Kansas coding"
+                  alt="Computer Hardware/Software Engineer in Wichita Kansas coding"
                 />
               </div>
               <div>
                 <h2 className="py-2">Ricardo Castanon | Wichita, KS</h2>
-                <p>Computer engineer</p>
+                <p>Computer Engineer</p>
                 <p className="py-4">
                   {"I am available for a chat. Contact me and let's talk."}
                 </p>
