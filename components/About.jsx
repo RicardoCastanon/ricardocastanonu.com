@@ -12,24 +12,11 @@ function About() {
           </p>
           <h2 className="py-4">Who I am</h2>
           <p className="text-gray-600 py-2">
-            I have a background in Physics at Wichita State University. I have a
-            deep passion for deep learning. I have experience in developing
-            machine learning algorithms, web development, mobile development,
-            and problem solving in general. I spend time whiteboarding the best
-            possible solution for a problem given the constraints. I am not just
-            a developer, I am a problem solver.
-          </p>
-          <p className="text-gray-600 py-2">
-            I also have a deep passion for learning and I actively research
-            various topics in physics, math, and computer science such as
-            Quantum Neural Networks. Go to my{" "}
-            <Link href={"/#research"}>
-              <span className="underline cursor-pointer text-purple-700">
-                research section
-              </span>
-            </Link>{" "}
-            if you want to learn with me and learn more about the theory behind
-            various concepts in computer science and physics!
+            I am studying Computer Engineering at Wichita State University in Wichita, KS.
+            Additionally, I am attaining minors in Mathematics and Political Science. I have
+            experience in multiple programming languages as well as experience in hardware
+            such as FPGAs, Microprocessors, and Arduino. I am a passionate learner with the 
+            goal of using all of my knowledge with the goal of helping society. 
           </p>
         </div>
         <div className="md:w-full w-[400px] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
