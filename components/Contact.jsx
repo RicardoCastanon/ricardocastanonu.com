@@ -90,7 +90,7 @@ function Contact(props) {
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label htmlFor="name" className="uppercase text-sm py-2">
-                      Name
+                      Name:
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
@@ -100,7 +100,7 @@ function Contact(props) {
                   </div>
                   <div className="flex flex-col">
                     <label htmlFor="phone" className="uppercase text-sm py-2">
-                      Phone number.
+                      Phone number:
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
@@ -110,7 +110,7 @@ function Contact(props) {
                   </div>
                   <div className="flex flex-col py-2 col-span-2">
                     <label className="uppercase text-sm py-2" htmlFor="email">
-                      Email.
+                      Email:
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
@@ -120,7 +120,7 @@ function Contact(props) {
                   </div>
                   <div className="flex flex-col py-2 col-span-2">
                     <label className="uppercase text-sm py-2" htmlFor="subject">
-                      Subject.
+                      Subject:
                     </label>
                     <input
                       className="b-2 rounded-lg p-3 flex border-gray-300"
@@ -130,7 +130,7 @@ function Contact(props) {
                   </div>
                   <div className="flex flex-col py-2 col-span-2">
                     <label className="uppercase text-sm py-2" htmlFor="message">
-                      Message.
+                      Message:
                     </label>
                     <textarea
                       className="border-2 rounded-lg p-3 border-gray-300"
