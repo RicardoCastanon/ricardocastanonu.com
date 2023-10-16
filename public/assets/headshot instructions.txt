@@ -1,0 +1,3 @@
+Replace Brandon's headshot.jpg image with mine, with same
+name "headshot.jpg". His jpg size: 4000px x 5000px
+(width x height), 240 dpi x 240dpi
