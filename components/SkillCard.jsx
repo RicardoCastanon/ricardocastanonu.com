@@ -27,7 +27,6 @@ function SkillCard(props) {
           />
         </div>
         <div className="flex flex-col items-center justify-center">
-          <h3>For web development.</h3>
         </div>
       </div>
     </div>
