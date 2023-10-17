@@ -6,10 +6,14 @@ function SkillCard(props) {
     "Ability to code HTML",
     "Ability to code CSS",
     "Ability to code JavaScript",
-    "Ability to code TypeScript",
-    "Ability to code Node JS",
-    "Experienced in React JS",
-    "Experienced in Vue JS",
+    "Experience in Github",
+    "Ability to code C++",
+    "Experience with VS Code",
+    "Experience with Arduino",
+    "Ability to code F#",
+    "Experience with MATLAB",
+    "Experience in Photoshop",
+    "Experience in Visual Studio"
   ];
   return (
     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">

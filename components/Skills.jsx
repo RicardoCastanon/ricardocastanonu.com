@@ -19,6 +19,10 @@ function Skills() {
           <SkillCard i={5} />
           <SkillCard i={6} />
           <SkillCard i={7} />
+          <SkillCard i={8} />
+          <SkillCard i={9} />
+          <SkillCard i={10} />
+          <SkillCard i={11} />
         </div>
       </div>
     </div>
