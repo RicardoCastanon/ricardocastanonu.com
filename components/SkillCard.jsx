@@ -15,6 +15,19 @@ function SkillCard(props) {
     "Experience in Photoshop",
     "Experience in Visual Studio"
   ];
+  const textList = [
+    "HTML 5",
+    "CSS 3",
+    "JavaScript",
+    "Github",
+    "C++",
+    "VS Code",
+    "Arduino",
+    "F#",
+    "MATLAB",
+    "Photoshop",
+    "Visual Studio"
+  ];
   return (
     <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
       <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -27,6 +40,9 @@ function SkillCard(props) {
           />
         </div>
         <div className="flex flex-col items-center justify-center">
+          <h3>
+            {textList[props.i - 1]}
+          </h3>
         </div>
       </div>
     </div>
