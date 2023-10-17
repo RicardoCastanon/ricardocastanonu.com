@@ -143,7 +143,7 @@ function Contact(props) {
                   onClick={() => handleOnClick(true)}
                   className="w-full p-4 text-gray-100"
                 >
-                  Send message.
+                  Send message
                 </button>
               </form>
             </div>
