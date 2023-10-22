@@ -16,7 +16,7 @@ function About() {
             Additionally, I am attaining minors in Mathematics and Political Science. I have
             experience in multiple programming languages as well as experience in hardware
             such as FPGAs, Microprocessors, and Arduino. I am a passionate learner with the 
-            goal of using all of my knowledge with the goal of helping society. 
+            goal of using all of my knowledge to contribute positively to society. 
           </p>
         </div>
         <div className="md:w-full w-[400px] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
