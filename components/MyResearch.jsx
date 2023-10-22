@@ -17,28 +17,30 @@ export const MyResearch = () => {
         <p className="px-6">
           <h3 className = "py-2">{"Electrical/Computer Engineering Undergraduate Research"}</h3>
           Currently I am doing electrical/computer engineering undergraduate research
-          with Dr. Abu Asaduzzaman Ph.D. in the topic of Hetereogeneous computer
-          architecture in embedded systems.
+          with Dr. Abu Asaduzzaman Ph.D. in the topic of <strong>Hetereogeneous computer
+          architecture in embedded systems</strong>.
 
           <h3 className = "py-2">{"Fire Rover: Programming and Documentation Lead"}</h3>
-          I am increasing my knowledge on robotics programming and Arduino through being 
+          I am increasing my knowledge on <strong>robotics programming</strong> and <strong>Arduino</strong> through being 
           the Programming Lead in my Senior Design Project, Fire Rover. This project 
           consists of creating an Unmanned Ground Vehicle (UGV) used to lay heavy hose in 
           long-distance, rugged terrain with obstacles. Its objective will be to reduce 
           firefighter injury and fatigue during the weeks after wildfires are extinguished.
+          A main goal is to make the vehicle <strong>autonomous</strong> which will be my task to accomplish.
 
           <h3 className = "py-2">{"Mesocast.net Team Member"}</h3>
           Furthermore, working in the Development Team of Mesocast.net, I am working alongside skilled 
-          software engineers that will help improve my software skills including my
-          front-end development, back-end development, and machine learning skills.
+          software engineers that will help improve my software skills including my 
+          <strong> front-end development</strong>, <strong>back-end development</strong>, and 
+          <strong> machine learning</strong> skills.
 
           <h3 className = "py-2">{"Increasing knowledge through University"}</h3>
           Lastly, I am gaining a lot of valuable knowledge throughout my final year of 
-          university. I have learned the Functional Paradigm using F# and will continue
-          on learning the Logical Paradigm using Prolog. I have improved my Assembly 
-          language programming and learned how to apply it when programming 
-          microprocessors. I will polish all of my attained skills so far to become a
-          better engineer and apply them on the job. 
+          university. I have learned the <strong>Functional Paradigm</strong> using <strong>F# </strong> 
+          and will continue on learning the <strong>Logical Paradigm</strong> using 
+          <strong> Prolog</strong>. I have improved my <strong>Assembly language programming </strong> 
+          and learned how to apply it when <strong>programming microprocessors</strong>. I will polish 
+          all of my attained skills so far to become a better engineer and apply them on the job. 
         </p>
         <p className="pt-5">Check out my research and learn with me!</p>
         <Link href={"/MyResearch"}>
