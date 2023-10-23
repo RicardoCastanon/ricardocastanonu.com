@@ -18,9 +18,9 @@ export const MyResearch = () => {
 
         <h3 className="py-2 text-xl">{"Electrical/Computer Engineering Undergraduate Research"}</h3>
         <p className="px-6">
-          Currently I am doing electrical/computer engineering undergraduate research
+          I am currently doing electrical/computer engineering undergraduate research
           with Dr. Abu Asaduzzaman Ph.D. in the topic of <strong>Hetereogeneous computer
-            architecture in embedded systems</strong>.
+          architecture in embedded systems</strong>.
         </p>
 
         <h3 className="py-2 text-xl">{"Fire Rover: Programming and Documentation Lead"}</h3>
