@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import AdditionalSkills from './AdditionalSkills';
 
 export const MyResearch = () => {
   return (
@@ -50,8 +49,6 @@ export const MyResearch = () => {
           and learned how to apply it when <strong>programming microprocessors</strong>. I will polish
           all of my attained skills so far to become a better engineer and apply them on the job.
         </p>
-
-        <AdditionalSkills /> {/* Include AdditionalSkills component here */}
       </div>
     </div>
   );

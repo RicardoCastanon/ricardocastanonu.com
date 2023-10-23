@@ -9,6 +9,8 @@ import { MyResearch } from "../components/MyResearch";
 import { SuccessModal } from "../components/SuccessModal";
 import { useState } from "react";
 import { NextPage } from "next";
+import AdditionalSkills from "../components/AdditionalSkills";
+import FieldsOfInterest from "../components/FieldsOfInterest";
 
 const Home: NextPage = () => {
   const [isModal, setIsModal] = useState(false);
@@ -73,6 +75,8 @@ const Home: NextPage = () => {
       <Skills />
       <Projects />
       <MyResearch />
+      <AdditionalSkills />
+      <FieldsOfInterest />
       <Contact onClick={getIsModalOpen} />
     </div>
   );
