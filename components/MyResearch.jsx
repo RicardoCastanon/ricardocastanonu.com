@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import AdditionalSkills from './AdditionalSkills';
 
 export const MyResearch = () => {
   return (
@@ -50,19 +51,7 @@ export const MyResearch = () => {
           all of my attained skills so far to become a better engineer and apply them on the job.
         </p>
 
-        <h2 className="py-8">{"Other Skills being Developed: "}</h2>
-        <ul>
-          <li>Web Development
-            <ul>
-              <li>React</li>
-              <li>Typescript</li>
-              <li>Next.js</li>
-              <li>Tailwind CSS</li>
-            </ul>
-          </li>
-          <li>Machine Learning and Neural Networks</li>
-          <li>Meteorology</li>
-        </ul>
+        <AdditionalSkills /> {/* Include AdditionalSkills component here */}
       </div>
     </div>
   );

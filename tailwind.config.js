@@ -5,6 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    listStyleType: {
+      disc: 'disc',
+      square: 'square',
+      circle: 'circle'
+    },
     extend: {},
   },
   plugins: [require("daisyui")],
