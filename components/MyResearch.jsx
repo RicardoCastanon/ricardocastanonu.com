@@ -15,49 +15,54 @@ export const MyResearch = () => {
           Here are some of my current projects and current learning areas:
         </p>
 
-        <h3 className = "py-2 text-xl">{"Electrical/Computer Engineering Undergraduate Research"}</h3>
-          <p className = "px-6">
+        <h3 className="py-2 text-xl">{"Electrical/Computer Engineering Undergraduate Research"}</h3>
+        <p className="px-6">
           Currently I am doing electrical/computer engineering undergraduate research
           with Dr. Abu Asaduzzaman Ph.D. in the topic of <strong>Hetereogeneous computer
-          architecture in embedded systems</strong>.
-          </p>
+            architecture in embedded systems</strong>.
+        </p>
 
-        <h3 className = "py-2 text-xl">{"Fire Rover: Programming and Documentation Lead"}</h3>
-          <p className = "px-6">
-          I am increasing my knowledge on <strong>robotics programming</strong> and <strong>Arduino</strong> through being 
-          the Programming Lead in my Senior Design Project, Fire Rover. This project 
-          consists of creating an Unmanned Ground Vehicle (UGV) used to lay heavy hose in 
-          long-distance, rugged terrain with obstacles. Its objective will be to reduce 
+        <h3 className="py-2 text-xl">{"Fire Rover: Programming and Documentation Lead"}</h3>
+        <p className="px-6">
+          I am increasing my knowledge on <strong>robotics programming</strong> and <strong>Arduino</strong> through being
+          the Programming Lead in my Senior Design Project, Fire Rover. This project
+          consists of creating an Unmanned Ground Vehicle (UGV) used to lay heavy hose in
+          long-distance, rugged terrain with obstacles. Its objective will be to reduce
           firefighter injury and fatigue during the weeks after wildfires are extinguished.
           A main goal is to make the vehicle <strong>autonomous</strong> which will be my task to accomplish.
-          </p>
+        </p>
 
-        <h3 className = "py-2 text-xl">{"Mesocast.net Team Member"}</h3>
-          <p className = "px-6">
-          Furthermore, working in the Development Team of Mesocast.net, I am working alongside skilled 
-          software engineers that will help improve my software skills including my 
-          <strong> front-end development</strong>, <strong>back-end development</strong>, and 
+        <h3 className="py-2 text-xl">{"Mesocast.net Team Member"}</h3>
+        <p className="px-6">
+          Furthermore, working in the Development Team of Mesocast.net, I am working alongside skilled
+          software engineers that will help improve my software skills including my
+          <strong> front-end development</strong>, <strong>back-end development</strong>, and
           <strong> machine learning</strong> skills.
-          </p>
+        </p>
 
-        <h3 className = "py-2 text-xl">{"Increasing knowledge through University"}</h3>
-        <p className = "px-6">
-          Lastly, I am gaining a lot of valuable knowledge throughout my final year of 
-          university. I have learned the <strong>Functional Paradigm</strong> using <strong>F# </strong> 
-          and will continue on learning the <strong>Logical Paradigm</strong> using 
-          <strong> Prolog</strong>. I have improved my <strong>Assembly language programming </strong> 
-          and learned how to apply it when <strong>programming microprocessors</strong>. I will polish 
-          all of my attained skills so far to become a better engineer and apply them on the job. 
-          </p>
+        <h3 className="py-2 text-xl">{"Increasing knowledge through University"}</h3>
+        <p className="px-6">
+          Lastly, I am gaining a lot of valuable knowledge throughout my final year of
+          university. I have learned the <strong>Functional Paradigm</strong> using <strong>F# </strong>
+          and will continue on learning the <strong>Logical Paradigm</strong> using
+          <strong> Prolog</strong>. I have improved my <strong>Assembly language programming </strong>
+          and learned how to apply it when <strong>programming microprocessors</strong>. I will polish
+          all of my attained skills so far to become a better engineer and apply them on the job.
+        </p>
 
-        <p className="pt-5">Check out my research and learn with me!</p>
-        <Link href={"/MyResearch"}>
-          <div className="w-[150px] pt-5">
-            <button className="w-full p-2 text-gray-100 hover:scale-105 duration-200">
-              My Research!
-            </button>
-          </div>
-        </Link>
+        <h2 className="py-8">{"Other Skills being Developed: "}</h2>
+        <ul>
+          <li>Web Development
+            <ul>
+              <li>React</li>
+              <li>Typescript</li>
+              <li>Next.js</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </li>
+          <li>Machine Learning and Neural Networks</li>
+          <li>Meteorology</li>
+        </ul>
       </div>
     </div>
   );
