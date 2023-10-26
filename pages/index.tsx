@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       "@type": "PostalAddress",
       streetAddress: "",
       addressLocality: "Wichita",
-      postalCode: "67206",
+      postalCode: "67213",
       addressCountry: "US",
     },
     openingHoursSpecification: {
@@ -74,7 +74,7 @@ const Home: NextPage = () => {
       <About />
       <Skills />
       <Projects />
-      <MyResearch />
+      {/* <MyResearch /> */}
       <AdditionalSkills />
       <FieldsOfInterest />
       <Contact onClick={getIsModalOpen} />
