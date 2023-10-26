@@ -30,11 +30,11 @@ function FieldsOfInterest() {
                 <li>
                     Learn <strong>data science</strong> while advancing my knowledge on
                     <strong> physics</strong> and <strong>mathematics</strong> to model the universe,
-                    solar systems, and planet formation to learn more about our universe's evolution.
+                    solar systems, and planet formation to learn more about our {"universe's"} evolution.
                 </li>
                 <li>
                     Use <strong>machine learning</strong> to help advance our understanding of physics
-                    to be able to better map the universe's evolution and behavior.
+                    to be able to better map the {"universe's"} evolution and behavior.
                 </li>
                 <li>
                     Use <strong>data science</strong> to analyze collected data from interstellar
