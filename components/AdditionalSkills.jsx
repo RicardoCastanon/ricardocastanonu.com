@@ -2,7 +2,7 @@ import React from 'react';
 
 function AdditionalSkills() {
     return (
-        <div className="max-w-[1240px] mx-auto px-2 py-3 pt-32" id='additionalskills'>
+        <div className="max-w-[1240px] mx-auto px-2 py-3 pt-16" id='additionalskills'>
             <div>
                 <h2 className="py-6">{"Other Skills being Developed: "}</h2>
                 <ul className="list-disc px-7">
