@@ -20,33 +20,13 @@ const Home: NextPage = () => {
 
   const schemaData = {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
     name: "Ricardo Castanon",
     image: "https://www.occmgmt.com/wp-content/uploads/2022/09/contact.jpeg",
     "@id": "",
-    url: "https://www.brandonthedev.com",
+    url: "https://www.ricardocastanonu.com",
     telephone: "3168715799",
-    priceRange: "$100",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "",
-      addressLocality: "Wichita",
-      postalCode: "67213",
-      addressCountry: "US",
-    },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday",
-      ],
-      opens: "00:00",
-      closes: "23:59",
     },
   };
   return (

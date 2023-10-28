@@ -39,8 +39,8 @@ const Navbar = (props) => {
             className="cursor-pointer"
             src="/assets/navlogo.png"
             alt="logo"
-            width="50"
-            height="50"
+            width="65"
+            height="75"
           ></Image>
         </Link>
         {/* Deploy */}
@@ -94,8 +94,8 @@ const Navbar = (props) => {
               <Image
                 src="/../public/assets/navlogo.png"
                 alt="logo"
-                width={35}
-                height={35}
+                width={50}
+                height={70}
               />
               <div
                 onClick={handleNav}
