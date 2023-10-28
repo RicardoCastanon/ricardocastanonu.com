@@ -5,7 +5,7 @@ export const MyResearch = () => {
   return (
     <div id="research" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="text-xl tracking-widest uppercase text-[#df534c]">
           Software/Hardware/Electrical Engineering!
         </p>
         <h2 className="py-4">{"What I'm Learning and Doing."}</h2>
@@ -46,8 +46,10 @@ export const MyResearch = () => {
           university. I have learned the <strong>Functional Paradigm</strong> using <strong>F# </strong>
           and will continue on learning the <strong>Logical Paradigm</strong> using
           <strong> Prolog</strong>. I have improved my <strong>Assembly language programming </strong>
-          and learned how to apply it when <strong>programming microprocessors</strong>. I will polish
-          all of my attained skills so far to become a better engineer and apply them on the job.
+          and learned how to apply it when <strong>programming microprocessors</strong>. I am also 
+          learning <strong>C</strong> and am applying it in <strong>programming microprocessors</strong>. 
+          I will  polish all of my attained skills so far to become a better engineer and apply them on 
+          the job.
         </p>
       </div>
     </div>

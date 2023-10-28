@@ -13,7 +13,7 @@ function Main() {
             {"SOFTWARE | HARDWARE | SCIENCE | SPACE | ENVIRONMENT"}
           </p>
           <h2 className="py-4 tracking-tight">
-            {"Hi, I'm "} <span className="text-[#5651e5]">Ricardo</span>
+            {"Hi, I'm "} <span className="text-[#df534c]">Ricardo</span>
           </h2>
           <h1 className="py-2 text-gray-700">
             An up-and-coming Engineer and passionate life-long learner in <br /> Wichita, Kansas.
